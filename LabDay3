@@ -1,0 +1,68 @@
+const inputArray = [-1,-2,0,1,2,3]
+
+//////////////////PROBLEM 1////////////////////
+
+// Make a variable called firstItem, set to the first value of the array called 'inputArray'.
+// Test your code by printing this new variable.
+
+const firstItem = inputArray[0];
+console.log(firstItem)
+
+//////////////////PROBLEM 2////////////////////
+
+// Make a variable called arrayLength, set to the length of inputArray.
+// Test your code by printing this new variable.
+
+const arrayLength = inputArray.length
+
+
+//////////////////PROBLEM 3////////////////////
+
+// Make a variable called lastItem, set to the last item of inputArray.
+// Test your code by printing this new variable.
+
+const lastItem = (input.Array[inputArray.length -1]);
+
+//////////////////PROBLEM 4////////////////////
+
+// Add the number 4 to the end of inputArray.
+// Test your code by printing inputArray.
+
+inputArray.push('4');
+console.log(inputArray);
+
+//////////////////PROBLEM 5////////////////////
+
+// Remove the last item of inputArray.
+// Test your code by printing inputArray.
+
+inputArray.pop();
+console.log(inputArray);
+
+
+
+//////////////////PROBLEM 6////////////////////
+
+// Remove the first item of inputArray.
+// Test your code by printing inputArray.
+
+
+
+//////////////////PROBLEM 7////////////////////
+
+// Replace the first and last item in inputArray with the number 42.
+// Fear not: the array will be at least 2 items long.
+// Test your code by printing inputArray.
+
+
+
+//////////////////PROBLEM 8////////////////////
+
+// Using a for...of loop, add ten to each element in inputArray and then push each sum into the newArr array.
+// You can assume that all items in inputArray will be numbers.
+// For example:
+// addTen([10,20,30]); -> [20,30,40]
+// addTen([1,2,3,4]); -> [11,12,13,14]
+// Test your code by printing inputArray.
+
+// let newArr = [];
